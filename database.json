@@ -1,0 +1,46 @@
+    {
+
+    "user_database": {
+        "Email"    : "hainammar@gmail.com",
+        "Password" : "HaiN@MTelecom*2021",
+
+        "Url"      : "https://af.articleforge.com/new_article",
+        "Test_File": "C:/Users/duclu/Desktop/python/bot/L1.html"
+    },
+
+    "xpath_database": {
+        "Email_Textbox"    : "/html/body/div/section[2]/div/div/form/div[1]/div/div/input",
+        "Password_Textbox" : "/html/body/div/section[2]/div/div/form/div[2]/div/div/input",
+
+        "Submit": "/html/body/div[2]/div[3]/form/div[2]/div/div/div[2]/button",
+        "Word_AI": "/html/body/div[2]/div[3]/form/div[1]/div/div[3]/div[2]/div[6]/div/div/input[2]",
+        "Word_AI_Setting": "/html/body/div[2]/div[3]/form/div[1]/div/div[3]/div[2]/div[8]/div/div[2]/div[3]/input",
+        "Close_Sign": "/html/body/div[2]/div[2]/div[2]/button",
+        "Close_Task": "/html/body/div[2]/div[3]/form/div[1]/div/div[2]/div[1]/div[1]/button",
+        "Notice": "/html/body/div[2]/div[2]/div/div[1]/button",
+
+        "Out_Button": [
+            "/html/body/div[2]/div[3]/form/div[1]/div/div[2]/div[", 
+            "]/div[1]/div/h4"],
+
+        "Find_Close": [
+            "/html/body/div[2]/div[3]/form/div[1]/div/div[2]/div[", 
+            "]/div[1]/button"
+        ],
+
+        "Article_Length": [
+            "/html/body/div[2]/div[3]/form/div[1]/div/div[2]/div[", 
+            "]/div/div/div[2]/div[1]/div/select"
+        ],
+
+        "Sub_Keywords": [
+            "/html/body/div[2]/div[3]/form/div[1]/div/div[2]/div[", 
+            "]/div/div/div[2]/div[4]/div/textarea"
+        ],
+
+        "Main_Keywords": [
+            "/html/body/div[2]/div[3]/form/div[1]/div/div[2]/div[", 
+            "]/div[2]/div[1]/div[1]/div[1]/input"
+        ]
+    }
+}
